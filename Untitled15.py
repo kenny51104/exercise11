@@ -36,7 +36,7 @@ print("It is a 2*2 identity matrix")
 # In[21]:
 
 
-w, v = np.linalg.eig(array3)
+w, v = np.linalg.eig(array1)
 
 
 # In[22]:
@@ -54,7 +54,7 @@ v
 # In[24]:
 
 
-u, s, vh = np.linalg.svd(array3)
+u, s, vh = np.linalg.svd(array1)
 
 
 # In[25]:
